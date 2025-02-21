@@ -27,6 +27,7 @@ export default function RandomColor() {
 
   useEffect(() => {
     createRandomColor();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [typeOfColor]);
 
   return (
